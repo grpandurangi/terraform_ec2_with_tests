@@ -15,11 +15,11 @@ module {
 }
 
 variables {
-  ami               = "ami-0953476d60561c955"
-  instance_type     = "t3.micro"
-  subnet_id         = "subnet-0a429c219246b165b"
-  key_name          = "grpmain"
-  security_group_ids = ["sg-0891f6f21c6cb0cde"]
+  ami               = "ami-12345678901234567"
+  instance_type     = "t3.dummy"
+  subnet_id         = "subnet-xxxxxxxxxxxxxxx"
+  key_name          = "dummy"
+  security_group_ids = ["sg-00000000000000000"]
   volume_size       = 20
   volume_type       = "gp3"
   tags = {
@@ -27,7 +27,6 @@ variables {
       Environment = "test"
     }
 }
-
 
   assert {
   condition     = aws_instance.this.tags["Name"] == "test-instance"
@@ -48,15 +47,15 @@ module {
 }
 
 variables {
-  ami               = "ami-0953476d60561c955"
-  instance_type     = "t3.micro"
-  subnet_id         = "subnet-0a429c219246b165b"
-  key_name          = "grpmain"
-  security_group_ids = ["sg-0891f6f21c6cb0cde"]
+  ami               = "ami-12345678901234567"
+  instance_type     = "t3.dummy"
+  subnet_id         = "subnet-xxxxxxxxxxxxxxx"
+  key_name          = "dummy"
+  security_group_ids = ["sg-00000000000000000"]
   volume_size       = 20
   volume_type       = "gp3"
   tags = {
-      Name        = "Environment"
+      Name        = "test-instance"
       Environment = "test"
     }
 }

@@ -1,6 +1,4 @@
-provider "aws" {
-  region = "us-east-1"
-}
+
 
 variable "ami" {
   description = "AMI ID for EC2 instance"
