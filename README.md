@@ -32,15 +32,15 @@ rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 
 
-(base) grpandurangiai@Gururajs-MacBook-Pro terraform_ec2_with_tests % terraform test -filter=tests/unit-tests.tftest.hcl
-tests/unit-tests.tftest.hcl... in progress
-  run "plan_create_ec2"... pass
-  run "create_ec2"... pass
-tests/unit-tests.tftest.hcl... tearing down
-tests/unit-tests.tftest.hcl... pass
+(base) grpandurangiai@Gururajs-MacBook-Pro terraform_ec2_with_tests % terraform test -filter=tests/unit-tests.tftest.hcl<br />
+tests/unit-tests.tftest.hcl... in progress<br />
+  run "plan_create_ec2"... pass<br />
+  run "create_ec2"... pass<br />
+tests/unit-tests.tftest.hcl... tearing down<br />
+tests/unit-tests.tftest.hcl... pass<br />
 
-Success! 2 passed, 0 failed.
-(base) grpandurangiai@Gururajs-MacBook-Pro terraform_ec2_with_tests % 
+Success! 2 passed, 0 failed.<br />
+(base) grpandurangiai@Gururajs-MacBook-Pro terraform_ec2_with_tests % <br />
 
 (base) grpandurangiai@Gururajs-MacBook-Pro terraform_ec2_with_tests % terraform test                                        
 tests/a-unit-tests.tftest.hcl... in progress<br />
