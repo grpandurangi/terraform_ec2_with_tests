@@ -43,20 +43,20 @@ Success! 2 passed, 0 failed.
 (base) grpandurangiai@Gururajs-MacBook-Pro terraform_ec2_with_tests % 
 
 (base) grpandurangiai@Gururajs-MacBook-Pro terraform_ec2_with_tests % terraform test                                        
-tests/a-unit-tests.tftest.hcl... in progress
-  run "plan_create_ec2"... pass
-  run "create_ec2"... pass
-tests/a-unit-tests.tftest.hcl... tearing down
-tests/a-unit-tests.tftest.hcl... pass
-tests/b-functional-tests.tftest.hcl... in progress
-  run "create_ec2"... pass
-tests/b-functional-tests.tftest.hcl... tearing down
-tests/b-functional-tests.tftest.hcl... pass
-tests/c-integrations.tftest.hcl... in progress
-  run "setup_tests"... pass
-  run "create_ec2"... pass
-tests/c-integrations.tftest.hcl... tearing down
-tests/c-integrations.tftest.hcl... pass
+tests/a-unit-tests.tftest.hcl... in progress<br />
+  run "plan_create_ec2"... pass<br />
+  run "create_ec2"... pass<br />
+tests/a-unit-tests.tftest.hcl... tearing down<br />
+tests/a-unit-tests.tftest.hcl... pass<br />
+tests/b-functional-tests.tftest.hcl... in progress<br />
+  run "create_ec2"... pass<br />
+tests/b-functional-tests.tftest.hcl... tearing down<br />
+tests/b-functional-tests.tftest.hcl... pass<br />
+tests/c-integrations.tftest.hcl... in progress<br />
+  run "setup_tests"... pass<br />
+  run "create_ec2"... pass<br />
+tests/c-integrations.tftest.hcl... tearing down<br />
+tests/c-integrations.tftest.hcl... pass<br />
 
-Success! 5 passed, 0 failed.
-(base) grpandurangiai@Gururajs-MacBook-Pro terraform_ec2_with_tests % 
+Success! 5 passed, 0 failed.<br />
+(base) grpandurangiai@Gururajs-MacBook-Pro terraform_ec2_with_tests % <br />
